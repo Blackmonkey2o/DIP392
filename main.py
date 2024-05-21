@@ -99,7 +99,7 @@ class ConnectFourGUI:
         for r in range(ConnectFour.ROW_COUNT):
             for c in range(ConnectFour.COLUMN_COUNT):
                 x_start = c * 100
-                y_start = r * 100 + 100
+                y_start = r * 100
                 self.canvas.create_oval(x_start + 5, y_start + 5, x_start + 95, y_start + 95, fill='white')
 
     def handle_click(self, event):
