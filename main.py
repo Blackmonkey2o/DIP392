@@ -69,7 +69,7 @@ class ConnectFourGUI:
         self.root.config(menu=menu_bar)
 
         file_menu = tk.Menu(menu_bar, tearoff=0)
-        menu_bar.add_cascade(label="File", menu=file_menu)
+        menu_bar.add_cascade(label="Menu", menu=file_menu)
         file_menu.add_command(label="New Game", command=self.init_game)
         file_menu.add_command(label="Restart Game", command=self.restart_game)
         file_menu.add_separator()
